@@ -8,3 +8,16 @@ channel = "stable-23_11"
 [deployment]
 publicDir = "/"
 deploymentTarget = "static"
+run = ["sh", "-c", "npm start"]
+
+[workflows]
+runButton = "Run"
+
+[[workflows.workflow]]
+name = "Run"
+author = 41646645
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "npm start"
