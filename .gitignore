@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+=======
+node_modules/
+>>>>>>> b97b6fa7a79cc7ab56ed2ff76e782a0837806871
